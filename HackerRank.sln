@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{0B977907-1465-4198-AC4E-0C1351655A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank.Tests", "HackerRank.Tests\HackerRank.Tests.csproj", "{A3D7DEED-DE9E-4A3D-9010-B93F67EACF3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B977907-1465-4198-AC4E-0C1351655A4E}.Debug|x86.ActiveCfg = Debug|x86
+		{0B977907-1465-4198-AC4E-0C1351655A4E}.Debug|x86.Build.0 = Debug|x86
+		{0B977907-1465-4198-AC4E-0C1351655A4E}.Release|x86.ActiveCfg = Release|x86
+		{0B977907-1465-4198-AC4E-0C1351655A4E}.Release|x86.Build.0 = Release|x86
+		{A3D7DEED-DE9E-4A3D-9010-B93F67EACF3E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A3D7DEED-DE9E-4A3D-9010-B93F67EACF3E}.Debug|x86.Build.0 = Debug|Any CPU
+		{A3D7DEED-DE9E-4A3D-9010-B93F67EACF3E}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3D7DEED-DE9E-4A3D-9010-B93F67EACF3E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
