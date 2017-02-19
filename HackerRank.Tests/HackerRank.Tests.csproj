@@ -32,12 +32,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InsertionSortPart1.cs\InsertionSortPart1Tests.cs" />
+    <Compile Include="InsertionSortPart2\InsertionSortPart2Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="InsertionSortPart1.cs\" />
+    <Folder Include="InsertionSortPart2\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HackerRank\HackerRank.csproj">
