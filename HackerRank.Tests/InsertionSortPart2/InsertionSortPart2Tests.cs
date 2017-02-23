@@ -59,5 +59,16 @@ namespace HackerRank.Tests
 			//assert
 			CollectionAssert.AreEqual(new[] { 1, 2, 4, 5, 7, 12, 13, 15, 23, 42, 51, 191 }, sortedList);
 		}
+
+		[Test]
+		public void ShouldSortAnUnorderedListWithLastElementSmallest()
+		{
+			//arrange 
+			var unorderedList = new[] { 191, 51, 12, 15, 2, 13, 5, 4, 23, 42, 7, 1 };
+			//act
+			var sortedList = Solution2.TestableInsertionSort(unorderedList);
+			//assert
+			CollectionAssert.AreEqual(new[] { 1, 2, 4, 5, 7, 12, 13, 15, 23, 42, 51, 191 }, sortedList);
+		}
 	}
 }
