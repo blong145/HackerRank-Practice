@@ -35,10 +35,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InsertionSortPart1\InsertionSortPart1.cs" />
     <Compile Include="InsertionSortPart2\InsertionSortPart2.cs" />
+    <Compile Include="HashTablesRansomNote\HashTablesRansomNote.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="InsertionSortPart1\" />
     <Folder Include="InsertionSortPart2\" />
+    <Folder Include="HashTablesRansomNote\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="InsertionSortPart1\Instructions.txt" />
